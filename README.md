@@ -1,5 +1,5 @@
 # 👋 ¡Bienvenidos usuarios! a mi proyecto Bloc de notas personal
-<img src="../bloc_de_notas_personal/frontend/imagen_presentacion.png" alt="Presentación" width="220" align="left" style="margin-right: 20px; border-radius: 5px;">
+<img src="imagen_presentacion.png" alt="Presentación" width="220" align="left" style="margin-right: 20px; border-radius: 5px;">
 <p style="text-align: justify;">
     ¡Bienvenido a este repositorio!
     Aquí encontrarás la presentación de mi proyecto <b>Bloc de notas personal</b>, una propuesta inspirada en la organización y gestión de notas digitales mediante una interfaz moderna, intuitiva y visualmente atractiva. Este proyecto fue creado con el objetivo de representar una experiencia sencilla y organizada, enfocándose tanto en el diseño visual como en la interacción del usuario dentro de la aplicación.
