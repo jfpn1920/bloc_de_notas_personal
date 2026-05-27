@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bloc de notas personal</title>
+        <link rel="stylesheet" href="bloc_de_notas_personal.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <script src="bloc_de_notas_personal.js" defer></script>
+</head>
+<body>
+    <!------------------------------------------>
+    <!--|estructurando_bloc_de_notas_personal|-->
+    <!------------------------------------------>
+    <div class="contenedor_principal">
+        <div class="panel_notas">
+            <div class="titulo_panel">
+                <h1>
+                    Bloc de notas personal
+                </h1>
+            </div>
+            <div class="contenido_panel">
+                <h2>
+                    Agregar la nota
+                </h2>
+                <input
+                    type="text"
+                    id="inputNota"
+                    placeholder="Escribe una nota..."
+                >
+                <button id="btnAgregar">
+                    Agregar
+                </button>
+            </div>
+        </div>
+        <!------------------------------->
+        <!--|estructurando_lista_notas|-->
+        <!------------------------------->
+        <div class="panel_lista_notas">
+            <div class="titulo_panel">
+                <h2>
+                    Lista de notas
+                </h2>
+            </div>
+            <div class="contenedor_scroll_notas">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="id-celda">
+                                Id
+                            </th>
+                            <th>
+                                Nota
+                            </th>
+                            <th class="acciones-celda">
+                                Acciones
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="listaNotas">
+                        <tr class="sin_notas">
+                            <td colspan="3">
+                                Ninguna nota disponible
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

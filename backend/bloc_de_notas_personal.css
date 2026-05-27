@@ -1,0 +1,240 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+body{
+    padding: 15px;
+    min-height: 100vh;
+    background: linear-gradient(
+        135deg,
+        #f1f1f1,
+        #d9d9d9,
+        #cfcfcf,
+        #e8e8e8
+    );
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*------------------------------*/
+/*--|estilo_base_presentacion|--*/
+/*------------------------------*/
+.contenedor_presentacion_bloc_de_notas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.tarjeta_presentacion_bloc_de_notas{
+    width: 100%;
+    max-width: 800px;
+    border-radius: 8px;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.imagen_presentacion_bloc_de_notas{
+    width: 290px;
+    height: 399px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.titulo_presentacion_bloc_de_notas{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+}
+.subtitulo_presentacion_bloc_de_notas{
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -30px;
+    color: #000000;
+}
+.boton_presentacion_bloc_de_notas{
+    text-decoration: none;
+    background: linear-gradient(
+        to bottom,
+        #bfc5d1,
+        #555b69
+    );
+    color: #000000;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: -15px;
+    padding: 15px 35px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.boton_presentacion_bloc_de_notas:hover{
+    transform: scale(1.05);
+}
+/*----------------------------------------*/
+/*--|estilo_base_bloc_de_notas_personal|--*/
+/*----------------------------------------*/
+.contenedor_principal{
+    width:100%;
+    margin-top: 10px;
+    margin-left: 285px;
+    max-width:700px;
+}
+.panel_notas,
+.panel_lista_notas{
+    background:#f4f4f4;
+    border:1px solid #7f7f7f;
+    margin-bottom:15px;
+    box-shadow:0 2px 4px rgba(0,0,0,0.08);
+}
+.titulo_panel{
+    background:#5f88c5;
+    padding:10px;
+    border-bottom:1px solid #777;
+    text-align:center;
+}
+.titulo_panel h1,
+.titulo_panel h2{
+    font-size:18px;
+    color:#111;
+}
+.contenido_panel{
+    padding:15px;
+}
+.contenido_panel h2{
+    font-size:18px;
+    margin-bottom:12px;
+    font-weight:normal;
+}
+.contenido_panel input{
+    width:100%;
+    padding:10px;
+    border:1px solid #999;
+    margin-bottom:15px;
+    font-size:14px;
+    outline:none;
+}
+#btnAgregar{
+    display:block;
+    margin:auto;
+    min-width:120px;
+    padding:10px 15px;
+    border:none;
+    background:#5f88c5;
+    color:#111;
+    font-size:14px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+#btnAgregar:hover{
+    background:#4e76b0;
+}
+/*-----------------------------*/
+/*--|estilo_base_lista_notas|--*/
+/*-----------------------------*/
+.panel_lista_notas{
+    overflow:hidden;
+}
+.contenedor_scroll_notas{
+    height: 428px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    background:white;
+}
+table{
+    width:100.3%;
+    margin-left: -1px;
+    position: relative;
+    top: -1px;
+    border-collapse:collapse;
+    table-layout:fixed;
+    background:white;
+}
+thead{
+    position:sticky;
+    top:0;
+    z-index:20;
+}
+
+thead th{
+    background:#d9e4f5;
+    position:sticky;
+    top:0;
+}
+th{
+    border:1px solid #888;
+    padding:8px;
+    font-size:14px;
+    font-weight:bold;
+    text-align:center;
+}
+td{
+    border:1px solid #999;
+    padding:8px;
+    font-size:13px;
+    word-break:break-word;
+    vertical-align:top;
+}
+th,
+td{
+    height: 39px;
+    box-sizing:border-box;
+}
+.posicion-celda,
+.id-celda{
+    width:60px;
+    text-align:center;
+}
+.acciones-celda{
+    width:120px;
+    text-align:center;
+}
+.sin_notas td{
+    height: 50px;
+    text-align:center;
+    vertical-align:middle;
+    font-weight:bold;
+    color:#555;
+    background:#fafafa;
+}
+tbody tr:hover{
+    background:#f5f8fc;
+}
+.acciones{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:8px;
+}
+.editar,
+.eliminar{
+    width:32px;
+    height:32px;
+    border:none;
+    border-radius:4px;
+    color:white;
+    cursor:pointer;
+    font-size:13px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition:0.2s;
+}
+.editar{
+    background:orange;
+}
+.eliminar{
+    background:red;
+}
+.editar:hover{
+    background:#d48a00;
+    transform:scale(1.05);
+}
+.eliminar:hover{
+    background:#c40000;
+    transform:scale(1.05);
+}
