@@ -1,7 +1,10 @@
 # 👋 ¡Bienvenidos usuarios! a mi proyecto Bloc de notas personal
 <img src="imagen_presentacion.png" alt="Presentación" width="220" align="left" style="margin-right: 20px; border-radius: 5px;">
 <p style="text-align: justify;">
-    ¡Bienvenido a este repositorio! Aquí encontrarás la presentación de mi proyecto <b>Bloc de notas personal</b>, una propuesta enfocada en la organización y gestión de notas digitales mediante una interfaz moderna, intuitiva y visualmente atractiva. Para el desarrollo de este proyecto se trabajó con diferentes tecnologías y enfoques de programación como <b>pseint, python, java, frontend y backend</b>, permitiendo fortalecer conocimientos relacionados con lógica de programación, diseño de interfaces, estructuras de desarrollo e implementación de aplicaciones. Además, se aplicaron conceptos modernos como diseño responsivo, manipulación dinámica del DOM, almacenamiento local usando <b>localstorage</b> y manejo de bases de datos mediante <b>phpmyadmin</b>, convirtiendo este repositorio en un espacio de aprendizaje, práctica y fortalecimiento de habilidades tecnológicas orientadas tanto al desarrollo visual como funcional del proyecto.
+    ¡Bienvenido a este repositorio! Aquí encontrarás la presentación de mi proyecto <b>Bloc de notas personal</b>, una propuesta enfocada en la organización y gestión de notas digitales mediante una interfaz moderna, intuitiva y visualmente atractiva. Para el desarrollo de este proyecto se trabajó con diferentes tecnologías y enfoques de programación como <b>pseint, python, java, frontend y backend</b>, permitiendo fortalecer conocimientos relacionados con lógica de programación, diseño de interfaces, estructuras de desarrollo e implementación de aplicaciones.
+</p>
+<p style="text-align: justify;">
+    Además, se aplicaron conceptos modernos como diseño responsivo, manipulación dinámica del DOM, almacenamiento local usando <b>localstorage</b> y manejo de bases de datos mediante <b>phpmyadmin</b>, convirtiendo este repositorio en un espacio de aprendizaje, práctica y fortalecimiento de habilidades tecnológicas orientadas tanto al desarrollo visual como funcional del proyecto.
 </p>
 <br clear="left"/>
 
