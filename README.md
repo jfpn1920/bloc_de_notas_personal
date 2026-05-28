@@ -1,4 +1,4 @@
-# 👋 ¡Bienvenidos usuarios! a mi proyecto bloc de notas personal
+# 👋 ¡Bienvenidos! a mi proyecto bloc de notas personal
 <img src="imagen_presentacion.png" alt="Presentación" width="220" align="left" style="margin-right: 20px; border-radius: 5px;">
 <p style="text-align: justify;">
     ¡Bienvenido a este repositorio! Aquí encontrarás la presentación de mi proyecto <b>Bloc de notas personal</b>, una propuesta enfocada en la organización y gestión de notas digitales mediante una interfaz moderna, intuitiva y visualmente atractiva. Para el desarrollo de este proyecto se trabajó con diferentes tecnologías y enfoques de programación como <b>pseint, python, java, frontend y backend</b>, permitiendo fortalecer conocimientos relacionados con lógica de programación, diseño de interfaces, estructuras de desarrollo e implementación de aplicaciones.
