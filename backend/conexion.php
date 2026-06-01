@@ -2,7 +2,7 @@
 $host = "localhost";
 $usuario = "root";
 $contrasena = "";
-$base_de_datos = "bloc_de_notas_personal";
+$base_de_datos = "bloc_notas_personal";
 $conexion = new mysqli(
     $host,
     $usuario,

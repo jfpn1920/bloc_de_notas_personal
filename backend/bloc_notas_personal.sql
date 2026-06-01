@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 27-05-2026 a las 02:04:47
+-- Tiempo de generación: 01-06-2026 a las 05:40:04
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `bloc_de_notas_personal`
+-- Base de datos: `bloc_notas_personal`
 --
 
 -- --------------------------------------------------------
